@@ -1,5 +1,5 @@
 {
-  "name": "pdw",
+  "name": "storeName",
   "version": "1.0.0",
   "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)\r [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "watch": "gulp watch",
     "start": "start npm run watch && start npm run server"
   },
-  "author": "ArkusNexus",
+  "author": "Author",
   "license": "ISC",
   "dependencies": {
     "gulp": "^4.0.2",

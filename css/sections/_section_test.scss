@@ -1,6 +1,3 @@
 body {
-    background-image: url(#{'"{{ \'sparkle.gif\' | asset_url}}"'}) !important;
-}
-.rich-text__heading {
-    color: red !important;
+    background-image: url(#{'"{{ \'sparkle.gif\' | asset_url}}"'});
 }
