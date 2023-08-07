@@ -1,1 +1,15 @@
-@import './sections/section_test.scss';
+@use './base/variables.scss';
+@import './base/mixins.scss';
+@import './base/typography.scss';
+@import './components/buttons.scss';
+
+@import './sections/storeName_sectionName.scss';
+@import './snippets/storeName_snippetName.scss';
+
+.store-desktop-wrapper {
+    max-width: 1280px;
+}
+
+/*body {
+    background-color: variables.$white;
+}*/

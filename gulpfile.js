@@ -1,16 +1,13 @@
 const { src, dest, watch } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
-const replace = require('gulp-replace');
 const autoprefixer = require('gulp-autoprefixer');
 
 function css() {
   return src('css/application.scss')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(autoprefixer())
-    .pipe(concat('application.css.liquid'))
-    .pipe(replace('"{{', '{{'))
-    .pipe(replace('}}"', '}}'))
+    .pipe(concat('application.css'))
     .pipe(dest('assets'));
 }
 
