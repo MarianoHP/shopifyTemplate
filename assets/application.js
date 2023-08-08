@@ -1,1 +1,1 @@
-"use strict";function welcomeMessage(e){console.log(`¡Welcome to ${e}!`)}welcomeMessage("Typescript minify"),console.log("this is a section"),console.log("this is a snippet");
+console.log("this is application.js"),console.log("this is a section"),console.log("this is a snippet");
