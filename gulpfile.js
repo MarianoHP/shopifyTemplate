@@ -3,6 +3,7 @@ const sass = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const ts = require('gulp-typescript');
+const terser = require('gulp-terser');
 
 const tsProject = ts.createProject('tsconfig.json');
 
@@ -18,6 +19,7 @@ function compileScripts() {
   return src('js/**/*.ts')
     .pipe(tsProject())
     .pipe(concat('application.js'))
+    .pipe(terser())
     .pipe(dest('assets'));
 }
 

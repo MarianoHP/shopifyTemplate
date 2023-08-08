@@ -1,11 +1,1 @@
-"use strict";
-function welcomeMessage(compiler) {
-    console.log(`¡Welcome to ${compiler}!`);
-}
-welcomeMessage('Typescript');
-
-"use strict";
-console.log('this is a section');
-
-"use strict";
-console.log('this is a snippet');
+"use strict";function welcomeMessage(e){console.log(`¡Welcome to ${e}!`)}welcomeMessage("Typescript minify"),console.log("this is a section"),console.log("this is a snippet");
