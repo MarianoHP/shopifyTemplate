@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "outDir": "./assets",
+        "rootDir": "./js",
+        "strict": true
+    }
+}
