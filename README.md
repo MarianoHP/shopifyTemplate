@@ -4,7 +4,7 @@ Dawn theme based Template
 ## DEV Instructions
 
 ### First Time
-1.- npm install
+1.- npm install\
 2.- shopify theme dev --store {store-name}
 
 ### Run Project Command
